@@ -24,6 +24,8 @@ Attribute_Keywords = struct(); % This is the structure that will contain the key
 
 %% These are the kewwords of each attribute
 
+% Each Attribute_Keywords.Attribute is corresponding to the headings
+% created above... take care of the positions!
 Attribute_Keywords.Attribute1 = {'SC', 'Synchronous Condenser', 'Synchronous Compensator', 'SynCon'};
 Attribute_Keywords.Attribute2 = {'STATCOMs', 'Synchoronous Static Compensator'};
 Attribute_Keywords.Attribute3 = {'Multipole Synchronous Machine','TYPE 4'};

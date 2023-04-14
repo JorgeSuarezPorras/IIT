@@ -16,7 +16,7 @@ VALORES_ATTRIBUTOS = TABLE_ATTRIBUTES(2:end,2:end);
 
 toplot = transpose(str2double(table2array(TABLE_ATTRIBUTES))); %Transpose table to plot
 
-%%
+%% 
 fig1 = figure(1);clf;
 fig1.Color = [1 1 1];
 b2 = bar3(toplot(1:length(ATTRIBUTES),:));
